@@ -2,6 +2,10 @@
   margin-top: 0px;
 }
 
+.scrollspyhelper {
+  margin-top: 30px;
+}
+
 body {
   min-height: 2000px;
   padding-top: 55px;
