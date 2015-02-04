@@ -10,5 +10,5 @@ $('#clocktime').countdown('2015/4/25 12:00:00')
     $(this).html(event.strftime(format));
   })
   .on('finish.countdown', function(event) {
-    $(this).html('This offer has expired!').parent().addClass('disabled');
+    $(this).html('결혼식이 종료되었습니다. 참석해주셔서 감사합니다.').parent().addClass('disabled');
   });
