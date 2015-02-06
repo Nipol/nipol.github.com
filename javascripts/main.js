@@ -7,7 +7,7 @@ $('#clocktime').countdown('2015/4/25 00:00:00')
     if(event.offset.weeks > 0) {
       format = '%-w주 ' + format;
     }
-    format = '결혼식 까지 ' + format;
+    format = '결혼식 까지<br/> ' + format;
     $(this).html(event.strftime(format));
   })
   .on('finish.countdown', function(event) {
