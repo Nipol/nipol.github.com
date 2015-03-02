@@ -7,4 +7,5 @@ body {
   min-height: 2000px;
   padding-top: 60px;
   position: relative;
+  background-color: rgb(255, 255, 255);
 }
